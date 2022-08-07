@@ -74,21 +74,21 @@ public class Code04_HeapSort {
         int maxValue = 100;
         boolean successed = true;
         for (int i = 0; i < testTime; i++) {
-            int[] arr1 = Util.generateRandomArray(maxSize, maxValue);
-            int[] arr2 = Util.copyArray(arr1);
+            int[] arr1 = Class04_Util.generateRandomArray(maxSize, maxValue);
+            int[] arr2 = Class04_Util.copyArray(arr1);
             heapSort(arr1);
-            Util.comparator(arr2);
-            if (!Util.isEqual(arr1, arr2)) {
+            Class04_Util.comparator(arr2);
+            if (!Class04_Util.isEqual(arr1, arr2)) {
                 successed = false;
                 break;
             }
         }
         System.out.println(successed ? "Nice!" : "Fucking fucked!");
 
-        int[] arr = Util.generateRandomArray(maxSize, maxValue);
-        Util.printArray(arr);
+        int[] arr = Class04_Util.generateRandomArray(maxSize, maxValue);
+        Class04_Util.printArray(arr);
         heapSort(arr);
-        Util.printArray(arr);
+        Class04_Util.printArray(arr);
     }
 
 }
