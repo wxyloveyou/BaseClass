@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="" />
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="在arr上，找满足&lt;=value的最右位置">
+      <change afterPath="$PROJECT_DIR$/Class01/src/Code06_BSAwesome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class01/src/Code07_EvenTimesOddTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class01/src/Until.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2D0alCKBVqqTcjh0w3VIIHQX9kf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -17,9 +35,19 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/Code/JavaCode/Algorithm/BaseClass/Class01/src"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Code\JavaCode\Algorithm\BaseClass\Class01\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,8 +56,55 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659838606066</updated>
+      <workItem from="1659838607228" duration="227000" />
     </task>
+    <task id="LOCAL-00001" summary="选择排序">
+      <created>1659838697921</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659838697921</updated>
+    </task>
+    <task id="LOCAL-00002" summary="冒泡排序">
+      <created>1659838753571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659838753571</updated>
+    </task>
+    <task id="LOCAL-00003" summary="插入排序">
+      <created>1659838781740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659838781740</updated>
+    </task>
+    <task id="LOCAL-00004" summary="二分查找">
+      <created>1659838794202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659838794202</updated>
+    </task>
+    <task id="LOCAL-00005" summary="在一个有序的数组上，找出满足大于等于value值的最左侧的位置">
+      <created>1659838814301</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659838814301</updated>
+    </task>
+    <task id="LOCAL-00006" summary="在arr上，找满足&lt;=value的最右位置">
+      <created>1659838828050</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659838828050</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -41,5 +116,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="选择排序" />
+    <MESSAGE value="冒泡排序" />
+    <MESSAGE value="插入排序" />
+    <MESSAGE value="二分查找" />
+    <MESSAGE value="在一个有序的数组上，找出满足大于等于value值的最左侧的位置" />
+    <MESSAGE value="在arr上，找满足&lt;=value的最右位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="在arr上，找满足&lt;=value的最右位置" />
   </component>
 </project>
