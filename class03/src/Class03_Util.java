@@ -1,13 +1,10 @@
-import javax.sound.midi.SoundbankResource;
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
-
 /**
  * @author : WXY
  * @create : 2022-07-30 21:34
  * @Description : 工具类，写对数器中用到的一些常用的方法
  *
  */
-public class Util {
+public class Class03_Util {
     //产生随机数组
     public static int[] generateTandomArray(int maxSize, int maxValue) {
         int[] arr = new int[(int) (Math.random() * (maxSize + 1))];
