@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 工具类">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class06/src/Code04_CopyListWithRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/class06/src/Code04_CopyListWithRandom.java" afterDir="false" />
-    </list>
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,28 +76,7 @@
       <updated>1659838606066</updated>
       <workItem from="1659838607228" duration="4175000" />
       <workItem from="1659843493443" duration="7000" />
-      <workItem from="1659843525295" duration="1174000" />
-    </task>
-    <task id="LOCAL-00007" summary="问题：局部最小问题">
-      <created>1659838843287</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1659838843287</updated>
-    </task>
-    <task id="LOCAL-00008" summary="arr中，只有一种数，出现奇数次 ,找出这个奇数">
-      <created>1659838854850</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1659838854850</updated>
-    </task>
-    <task id="LOCAL-00009" summary="工具类，用来比较器中的一些函数">
-      <created>1659838864069</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1659838864069</updated>
+      <workItem from="1659843525295" duration="1852000" />
     </task>
     <task id="LOCAL-00010" summary="info">
       <created>1659838873505</created>
@@ -424,7 +400,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659844423400</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="info 完整的复制一个链表">
+      <created>1659844750377</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1659844750377</updated>
+    </task>
+    <task id="LOCAL-00057" summary="info">
+      <created>1659844759691</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1659844759691</updated>
+    </task>
+    <task id="LOCAL-00058" summary="info">
+      <created>1659844768695</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1659844768696</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,14 +432,21 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="54" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="118" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="46" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info 堆" />
     <MESSAGE value="info  链表做partition" />
     <MESSAGE value="info  堆排序" />
     <MESSAGE value="info  基数排序" />
@@ -457,7 +461,6 @@
     <MESSAGE value="info 判断链表是不是回文结构" />
     <MESSAGE value="info 链表做partition" />
     <MESSAGE value="info 完整的复制一个链表，" />
-    <MESSAGE value="info" />
     <MESSAGE value="info小和问题，" />
     <MESSAGE value="info 桶排序_计数排序" />
     <MESSAGE value="info 归并排序," />
@@ -467,6 +470,8 @@
     <MESSAGE value="info 基数排序" />
     <MESSAGE value="info 一个基本有序的数组，将其排序，要求每个数字移动的长度不超过k" />
     <MESSAGE value="info 工具类" />
-    <option name="LAST_COMMIT_MESSAGE" value="info 工具类" />
+    <MESSAGE value="info 完整的复制一个链表" />
+    <MESSAGE value="info" />
+    <option name="LAST_COMMIT_MESSAGE" value="info" />
   </component>
 </project>
