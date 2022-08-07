@@ -64,16 +64,16 @@ public class Code05_SortArrayDistanceLessK {
         for (int i = 0; i < testTime; i++) {
             int k = (int) (Math.random() * maxSize) + 1;
             int[] arr = randomArrayNoMoveMoreK(maxSize, maxValue, k);
-            int[] arr1 = Util.copyArray(arr);
-            int[] arr2 = Util.copyArray(arr);
+            int[] arr1 = Class04_Util.copyArray(arr);
+            int[] arr2 = Class04_Util.copyArray(arr);
             sortedArrDistanceLessK(arr1, k);
-            Util.comparator(arr2);
-            if (!Util.isEqual(arr1, arr2)) {
+            Class04_Util.comparator(arr2);
+            if (!Class04_Util.isEqual(arr1, arr2)) {
                 succeed = false;
                 System.out.println("K : " + k);
-                Util.printArray(arr);
-                Util.printArray(arr1);
-                Util.printArray(arr2);
+                Class04_Util.printArray(arr);
+                Class04_Util.printArray(arr1);
+                Class04_Util.printArray(arr2);
                 break;
             }
         }
