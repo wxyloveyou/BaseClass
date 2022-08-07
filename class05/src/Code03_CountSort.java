@@ -30,14 +30,14 @@ public class Code03_CountSort {
         int maxValue = 200;
         boolean succeed = true;
         for (int i = 0; i < testTimes; i++) {
-            int[] arr1 = Util.generateRandomArray(maxSize, maxValue);
-            int[] arr2 = Util.copyArray(arr1);
+            int[] arr1 = Class04_Util.generateRandomArray(maxSize, maxValue);
+            int[] arr2 = Class04_Util.copyArray(arr1);
             countSort(arr1);
-            Util.comparator(arr2);
-            if (!Util.isEqual(arr1, arr2)) {
+            Class04_Util.comparator(arr2);
+            if (!Class04_Util.isEqual(arr1, arr2)) {
                 succeed = false;
-                Util.printArray(arr1);
-                Util.printArray(arr2);
+                Class04_Util.printArray(arr1);
+                Class04_Util.printArray(arr2);
                 break;
             }
         }
