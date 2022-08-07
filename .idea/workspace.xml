@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info">
-      <change afterPath="$PROJECT_DIR$/class06/src/Code05_FindFirstIntersectNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class06/src/Code05_test.java" afterDir="false" />
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 两条链表相交问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +49,10 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -116,28 +117,7 @@
       <updated>1659838606066</updated>
       <workItem from="1659838607228" duration="4175000" />
       <workItem from="1659843493443" duration="7000" />
-      <workItem from="1659843525295" duration="6616000" />
-    </task>
-    <task id="LOCAL-00011" summary="info 比较器">
-      <created>1659839004043</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839004043</updated>
-    </task>
-    <task id="LOCAL-00012" summary="info  单链表中点问题">
-      <created>1659839023944</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839023944</updated>
-    </task>
-    <task id="LOCAL-00013" summary="info  归并排序">
-      <created>1659839038326</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839038326</updated>
+      <workItem from="1659843525295" duration="8163000" />
     </task>
     <task id="LOCAL-00014" summary="info  链表反转">
       <created>1659839062590</created>
@@ -461,7 +441,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659855167240</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="info 两条链表相交问题">
+      <created>1659859633214</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1659859633214</updated>
+    </task>
+    <task id="LOCAL-00061" summary="info">
+      <created>1659859650438</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1659859650438</updated>
+    </task>
+    <task id="LOCAL-00062" summary="info 两条链表相交问题">
+      <created>1659861668141</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1659861668141</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +488,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info  链表做partition" />
     <MESSAGE value="info  堆排序" />
     <MESSAGE value="info  基数排序" />
     <MESSAGE value="info 环状队列操作，" />
@@ -512,15 +512,16 @@
     <MESSAGE value="info 工具类" />
     <MESSAGE value="info 完整的复制一个链表" />
     <MESSAGE value="info" />
-    <option name="LAST_COMMIT_MESSAGE" value="info" />
+    <MESSAGE value="info 两条链表相交问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="info 两条链表相交问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/class06/src/Code05_FindFirstIntersectNode.java</url>
-          <line>180</line>
-          <option name="timeStamp" value="1" />
+          <line>178</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
