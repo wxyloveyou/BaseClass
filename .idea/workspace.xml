@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info" />
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info">
+      <change afterPath="$PROJECT_DIR$/class06/src/Code05_FindFirstIntersectNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class06/src/Code05_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -52,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Code05_FindFirstIntersectNode">
     <configuration name="Code04_CopyListWithRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code04_CopyListWithRandom" />
       <module name="BaseClass" />
@@ -60,8 +71,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code05_FindFirstIntersectNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code05_FindFirstIntersectNode" />
+      <module name="BaseClass" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code05_test (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code05_test" />
+      <module name="BaseClass" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code05_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class06.Code05_test" />
+      <module name="BaseClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="class06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code05_FindFirstIntersectNode" />
+        <item itemvalue="Application.Code05_test" />
         <item itemvalue="Application.Code04_CopyListWithRandom" />
       </list>
     </recent_temporary>
@@ -76,14 +116,7 @@
       <updated>1659838606066</updated>
       <workItem from="1659838607228" duration="4175000" />
       <workItem from="1659843493443" duration="7000" />
-      <workItem from="1659843525295" duration="1852000" />
-    </task>
-    <task id="LOCAL-00010" summary="info">
-      <created>1659838873505</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1659838873505</updated>
+      <workItem from="1659843525295" duration="6616000" />
     </task>
     <task id="LOCAL-00011" summary="info 比较器">
       <created>1659839004043</created>
@@ -421,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659844768696</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="info">
+      <created>1659855167240</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1659855167240</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,5 +513,16 @@
     <MESSAGE value="info 完整的复制一个链表" />
     <MESSAGE value="info" />
     <option name="LAST_COMMIT_MESSAGE" value="info" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/class06/src/Code05_FindFirstIntersectNode.java</url>
+          <line>180</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
