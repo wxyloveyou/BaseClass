@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 两条链表相交问题">
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 递归遍历二叉树">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class07/src/Code01_RecursiveTraversalBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/class07/src/Code01_RecursiveTraversalBT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "E:/Code/JavaCode/Algorithm/BaseClass",
@@ -64,7 +66,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code05_FindFirstIntersectNode">
+  <component name="RunManager" selected="Application.Code01_RecursiveTraversalBT">
+    <configuration name="Code01_RecursiveTraversalBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code01_RecursiveTraversalBT" />
+      <module name="class07" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Code04_CopyListWithRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code04_CopyListWithRandom" />
       <module name="BaseClass" />
@@ -101,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code01_RecursiveTraversalBT" />
         <item itemvalue="Application.Code05_FindFirstIntersectNode" />
         <item itemvalue="Application.Code05_test" />
         <item itemvalue="Application.Code04_CopyListWithRandom" />
@@ -117,21 +127,7 @@
       <updated>1659838606066</updated>
       <workItem from="1659838607228" duration="4175000" />
       <workItem from="1659843493443" duration="7000" />
-      <workItem from="1659843525295" duration="8163000" />
-    </task>
-    <task id="LOCAL-00014" summary="info  链表反转">
-      <created>1659839062590</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839062590</updated>
-    </task>
-    <task id="LOCAL-00015" summary="info  前缀树找BUG">
-      <created>1659839090530</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839090530</updated>
+      <workItem from="1659843525295" duration="9414000" />
     </task>
     <task id="LOCAL-00016" summary="info  删除指定的值的节点">
       <created>1659839100784</created>
@@ -462,7 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659861668141</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="info">
+      <created>1659862071075</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1659862071075</updated>
+    </task>
+    <task id="LOCAL-00064" summary="info 递归遍历二叉树">
+      <created>1659862082776</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1659862082776</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info  堆排序" />
     <MESSAGE value="info  基数排序" />
     <MESSAGE value="info 环状队列操作，" />
     <MESSAGE value="info 获取添加到栈中的最小值，" />
@@ -511,9 +520,10 @@
     <MESSAGE value="info 一个基本有序的数组，将其排序，要求每个数字移动的长度不超过k" />
     <MESSAGE value="info 工具类" />
     <MESSAGE value="info 完整的复制一个链表" />
-    <MESSAGE value="info" />
     <MESSAGE value="info 两条链表相交问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="info 两条链表相交问题" />
+    <MESSAGE value="info" />
+    <MESSAGE value="info 递归遍历二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="info 递归遍历二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
