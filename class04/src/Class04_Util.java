@@ -2,24 +2,20 @@ import java.util.Arrays;
 
 /**
  * @author : WXY
- * @create : 2022-08-02 21:26
- * @Description :
+ * @create : 2022-07-31 17:04
+ * @Description : 工具类
  */
-public class Util {
-    // for test
-    public static void comparator(int[] arr) {
-        Arrays.sort(arr);
-    }
-
-    // for test
+public class Class04_Util {
     public static int[] generateRandomArray(int maxSize, int maxValue) {
         int[] arr = new int[(int) ((maxSize + 1) * Math.random())];
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = (int) ((maxValue + 1) * Math.random());
+            arr[i] = (int) ((maxValue + 1) * Math.random()) - (int) (maxValue * Math.random());
         }
         return arr;
     }
-
+    public static void comparator(int[] arr) {
+        Arrays.sort(arr);
+    }
     // for test
     public static int[] copyArray(int[] arr) {
         if (arr == null) {
@@ -31,7 +27,6 @@ public class Util {
         }
         return res;
     }
-
     // for test
     public static boolean isEqual(int[] arr1, int[] arr2) {
         if ((arr1 == null && arr2 != null) || (arr1 != null && arr2 == null)) {
@@ -61,5 +56,4 @@ public class Util {
         }
         System.out.println();
     }
-
 }
