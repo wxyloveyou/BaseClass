@@ -79,14 +79,14 @@ public class Code01_MergeSort {
         int maxValue = 100;
         boolean successed = true;
         for (int i = 0; i < testTimes; i++) {
-            int[] arr1 = Class04_Util.generateTandomArray(maxSize, maxValue);
-            int[] arr2 = Class04_Util.copyArray(arr1);
+            int[] arr1 = Class03_Util.generateTandomArray(maxSize, maxValue);
+            int[] arr2 = Class03_Util.copyArray(arr1);
             mergeSort1(arr1);
             mergeSort2(arr2);
-            if (!Class04_Util.isEqual(arr1, arr2)) {
+            if (!Class03_Util.isEqual(arr1, arr2)) {
                 successed = false;
-                Class04_Util.printArray(arr1);
-                Class04_Util.printArray(arr2);
+                Class03_Util.printArray(arr1);
+                Class03_Util.printArray(arr2);
                 break;
             }
         }
