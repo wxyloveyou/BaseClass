@@ -1,4 +1,5 @@
 import com.sun.corba.se.spi.orbutil.closure.Closure;
+import com.sun.org.apache.xml.internal.res.XMLErrorResources_tr;
 
 import java.util.Stack;
 
@@ -84,6 +85,27 @@ public class Code02_UnRecursiveTraversalBT {
         System.out.println();
     }
 
+    public static void pos2(Node head) {
+        System.out.print("pos2-order: ");
+        if (head != null) {
+            Stack<Node> stack = new Stack<>();
+            stack.push(head);
+            Node c = null;
+            while (!stack.isEmpty()) {
+                c = stack.peek();
+                if (c.left != null && head != c.left && head != c.right) {
+                    stack.push(c.left);
+                } else if (c.right != null && head != c.right) {
+                    stack.push(c.right);
+                } else {
+                    System.out.print(stack.pop().value + " ");
+                    head = c;
+                }
+            }
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args) {
         Node head = new Node(1);
         head.left = new Node(2);
@@ -98,6 +120,8 @@ public class Code02_UnRecursiveTraversalBT {
         in(head);
         System.out.println("========");
         pos1(head);
+        System.out.println("========");
+        pos2(head);
         System.out.println("========");
     }
 }
