@@ -1,5 +1,3 @@
-import sun.security.krb5.internal.crypto.HmacMd5ArcFourCksumType;
-
 /**
  * @author : WXY
  * @create : 2022-07-30 22:06
@@ -17,12 +15,12 @@ public class Code02_SmallSum {
         int maxValue = 100;
         boolean successes = true;
         for (int i = 0; i < testTime; i++) {
-            int[] arr1 = Util.generateTandomArray(maxSize, maxValue);
-            int[] arr2 = Util.copyArray(arr1);
+            int[] arr1 = Class04_Util.generateTandomArray(maxSize, maxValue);
+            int[] arr2 = Class04_Util.copyArray(arr1);
             if (smallSum(arr1) != comparator(arr2)) {
                 successes = false;
-                Util.printArray(arr1);
-                Util.printArray(arr2);
+                Class04_Util.printArray(arr1);
+                Class04_Util.printArray(arr2);
                 break;
             }
         }
