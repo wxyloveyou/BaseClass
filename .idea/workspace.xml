@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 工具类">
-      <change afterPath="$PROJECT_DIR$/Class06/Class06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class06/src/Code04_CopyListWithRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class02/class02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class03/class03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class04/class04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class05/class05.iml" afterDir="false" />
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info">
+      <change afterPath="$PROJECT_DIR$/class06/src/Code04_CopyListWithRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseClass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BaseClass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class06/Class06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/class06/Class06.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class06/src/Code01_LinkedListMid.java" beforeDir="false" afterPath="$PROJECT_DIR$/class06/src/Code01_LinkedListMid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class06/src/Code02_IsPalindromeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/class06/src/Code02_IsPalindromeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class06/src/Code03_SmallerEqualBigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/class06/src/Code03_SmallerEqualBigger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659838606066</updated>
-      <workItem from="1659838607228" duration="738000" />
+      <workItem from="1659838607228" duration="1094000" />
     </task>
     <task id="LOCAL-00001" summary="选择排序">
       <created>1659838697921</created>
@@ -322,7 +322,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659839349071</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="info">
+      <created>1659839359255</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1659839359255</updated>
+    </task>
+    <task id="LOCAL-00038" summary="info">
+      <created>1659839365420</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1659839365420</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +354,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info 比较器" />
     <MESSAGE value="info  单链表中点问题" />
     <MESSAGE value="info  归并排序" />
     <MESSAGE value="info  链表反转" />
@@ -365,6 +378,7 @@
     <MESSAGE value="info HashMapAndSortedMap" />
     <MESSAGE value="info 将默认的小根堆改写成大根堆" />
     <MESSAGE value="info 工具类" />
-    <option name="LAST_COMMIT_MESSAGE" value="info 工具类" />
+    <MESSAGE value="info" />
+    <option name="LAST_COMMIT_MESSAGE" value="info" />
   </component>
 </project>
