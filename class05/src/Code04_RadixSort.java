@@ -68,21 +68,21 @@ public class Code04_RadixSort {
         int maxValue = 1000000;
         boolean succeed = true;
         for (int i = 0; i < testTimes; i++) {
-            int[] arr1 = Util.generateRandomArray(maxSize, maxValue);
-            int[] arr2 = Util.copyArray(arr1);
+            int[] arr1 = Class05_Util.generateRandomArray(maxSize, maxValue);
+            int[] arr2 = Class05_Util.copyArray(arr1);
             radixSort(arr1);
-            Util.comparator(arr2);
-            if (!Util.isEqual(arr1, arr2)) {
+            Class04_Util.comparator(arr2);
+            if (!Class04_Util.isEqual(arr1, arr2)) {
                 succeed = false;
-                Util.printArray(arr1);
-                Util.printArray(arr2);
+                Class05_Util.printArray(arr1);
+                Class05_Util.printArray(arr2);
                 break;
             }
         }
         System.out.println(succeed ? "Nice!" : "BUG BUG BUG");
-        int[] arr = Util.generateRandomArray(maxSize, maxValue);
-        Util.printArray(arr);
+        int[] arr = Class05_Util.generateRandomArray(maxSize, maxValue);
+        Class05_Util.printArray(arr);
         radixSort(arr);
-        Util.printArray(arr);
+        Class05_Util.printArray(arr);
     }
 }
