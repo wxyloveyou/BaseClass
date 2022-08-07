@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info">
-      <change afterPath="$PROJECT_DIR$/class06/src/Code04_CopyListWithRandom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseClass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BaseClass.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class06/Class06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/class06/Class06.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class06/src/Code01_LinkedListMid.java" beforeDir="false" afterPath="$PROJECT_DIR$/class06/src/Code01_LinkedListMid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class06/src/Code02_IsPalindromeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/class06/src/Code02_IsPalindromeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class06/src/Code03_SmallerEqualBigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/class06/src/Code03_SmallerEqualBigger.java" afterDir="false" />
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 工具类">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class06/src/Code04_CopyListWithRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/class06/src/Code04_CopyListWithRandom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "E:/Code/JavaCode/Algorithm/BaseClass",
@@ -60,6 +55,20 @@
       <recent name="" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Code04_CopyListWithRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code04_CopyListWithRandom" />
+      <module name="BaseClass" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Code04_CopyListWithRandom" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,49 +77,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659838606066</updated>
-      <workItem from="1659838607228" duration="1094000" />
-    </task>
-    <task id="LOCAL-00001" summary="选择排序">
-      <created>1659838697921</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1659838697921</updated>
-    </task>
-    <task id="LOCAL-00002" summary="冒泡排序">
-      <created>1659838753571</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1659838753571</updated>
-    </task>
-    <task id="LOCAL-00003" summary="插入排序">
-      <created>1659838781740</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1659838781740</updated>
-    </task>
-    <task id="LOCAL-00004" summary="二分查找">
-      <created>1659838794202</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1659838794202</updated>
-    </task>
-    <task id="LOCAL-00005" summary="在一个有序的数组上，找出满足大于等于value值的最左侧的位置">
-      <created>1659838814301</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1659838814301</updated>
-    </task>
-    <task id="LOCAL-00006" summary="在arr上，找满足&lt;=value的最右位置">
-      <created>1659838828050</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1659838828050</updated>
+      <workItem from="1659838607228" duration="4175000" />
+      <workItem from="1659843493443" duration="7000" />
+      <workItem from="1659843525295" duration="1174000" />
     </task>
     <task id="LOCAL-00007" summary="问题：局部最小问题">
       <created>1659838843287</created>
@@ -336,7 +305,126 @@
       <option name="project" value="LOCAL" />
       <updated>1659839365420</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="info">
+      <created>1659839743437</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1659839743437</updated>
+    </task>
+    <task id="LOCAL-00040" summary="info 单链表中点问题">
+      <created>1659839772981</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1659839772981</updated>
+    </task>
+    <task id="LOCAL-00041" summary="info 判断链表是不是回文结构">
+      <created>1659839784089</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1659839784089</updated>
+    </task>
+    <task id="LOCAL-00042" summary="info 链表做partition">
+      <created>1659839798702</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1659839798702</updated>
+    </task>
+    <task id="LOCAL-00043" summary="info 完整的复制一个链表，">
+      <created>1659840086620</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1659840086620</updated>
+    </task>
+    <task id="LOCAL-00044" summary="info">
+      <created>1659840092808</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1659840092808</updated>
+    </task>
+    <task id="LOCAL-00045" summary="info 工具类">
+      <created>1659844084622</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1659844084622</updated>
+    </task>
+    <task id="LOCAL-00046" summary="info 桶排序_计数排序">
+      <created>1659844096184</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1659844096184</updated>
+    </task>
+    <task id="LOCAL-00047" summary="info小和问题，">
+      <created>1659844104941</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1659844104941</updated>
+    </task>
+    <task id="LOCAL-00048" summary="info 桶排序_计数排序">
+      <created>1659844134591</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1659844134591</updated>
+    </task>
+    <task id="LOCAL-00049" summary="info 归并排序,">
+      <created>1659844322305</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1659844322305</updated>
+    </task>
+    <task id="LOCAL-00050" summary="info小和问题,">
+      <created>1659844340178</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1659844340178</updated>
+    </task>
+    <task id="LOCAL-00051" summary="info 快排 和 荷兰国旗问题">
+      <created>1659844363011</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1659844363012</updated>
+    </task>
+    <task id="LOCAL-00052" summary="info 堆排序">
+      <created>1659844375868</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1659844375868</updated>
+    </task>
+    <task id="LOCAL-00053" summary="info 基数排序">
+      <created>1659844399043</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1659844399043</updated>
+    </task>
+    <task id="LOCAL-00054" summary="info 一个基本有序的数组，将其排序，要求每个数字移动的长度不超过k">
+      <created>1659844410721</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1659844410721</updated>
+    </task>
+    <task id="LOCAL-00055" summary="info 工具类">
+      <created>1659844423400</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1659844423400</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,19 +442,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info  单链表中点问题" />
-    <MESSAGE value="info  归并排序" />
-    <MESSAGE value="info  链表反转" />
-    <MESSAGE value="info  前缀树找BUG" />
-    <MESSAGE value="info  删除指定的值的节点" />
-    <MESSAGE value="info  大根堆" />
-    <MESSAGE value="info 判断链表是不是回文结构" />
-    <MESSAGE value="info 小和问题，" />
-    <MESSAGE value="info 前缀树：将字符数组以前缀树的方式保存" />
-    <MESSAGE value="info 桶排序_计数排序" />
-    <MESSAGE value="info 双链表改装，讲双端队列改装成栈" />
     <MESSAGE value="info 堆" />
-    <MESSAGE value="info 快排 和 荷兰国旗问题" />
     <MESSAGE value="info  链表做partition" />
     <MESSAGE value="info  堆排序" />
     <MESSAGE value="info  基数排序" />
@@ -377,8 +453,20 @@
     <MESSAGE value="info 求arr上的最大值" />
     <MESSAGE value="info HashMapAndSortedMap" />
     <MESSAGE value="info 将默认的小根堆改写成大根堆" />
-    <MESSAGE value="info 工具类" />
+    <MESSAGE value="info 单链表中点问题" />
+    <MESSAGE value="info 判断链表是不是回文结构" />
+    <MESSAGE value="info 链表做partition" />
+    <MESSAGE value="info 完整的复制一个链表，" />
     <MESSAGE value="info" />
-    <option name="LAST_COMMIT_MESSAGE" value="info" />
+    <MESSAGE value="info小和问题，" />
+    <MESSAGE value="info 桶排序_计数排序" />
+    <MESSAGE value="info 归并排序," />
+    <MESSAGE value="info小和问题," />
+    <MESSAGE value="info 快排 和 荷兰国旗问题" />
+    <MESSAGE value="info 堆排序" />
+    <MESSAGE value="info 基数排序" />
+    <MESSAGE value="info 一个基本有序的数组，将其排序，要求每个数字移动的长度不超过k" />
+    <MESSAGE value="info 工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="info 工具类" />
   </component>
 </project>
