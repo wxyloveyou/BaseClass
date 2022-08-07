@@ -136,13 +136,13 @@ public class Code03_PartitionAndQuickSort {
         int maxValue = 100;
         boolean sucessed = true;
         for (int i = 0; i < 3; i++) {
-            int[] arr1 = Util.generateTandomArray(maxSize, maxValue);
-            int[] arr2 = Util.copyArray(arr1);
-            int[] arr3 = Util.copyArray(arr1);
+            int[] arr1 = Class03_Util.generateTandomArray(maxSize, maxValue);
+            int[] arr2 = Class03_Util.copyArray(arr1);
+            int[] arr3 = Class03_Util.copyArray(arr1);
             quickSort1(arr1);
             quickSort2(arr2);
             quickSort3(arr3);
-            if (!Util.isEqual(arr1, arr2) || !Util.isEqual(arr3, arr2)) {
+            if (!Class03_Util.isEqual(arr1, arr2) || !Class03_Util.isEqual(arr3, arr2)) {
                 sucessed = false;
                 break;
             }
