@@ -1,0 +1,26 @@
+/**
+ * @author : WXY
+ * @create : 2022-08-09 22:11
+ * @Info : 纸对折
+ */
+public class Code08_PaperFolding {
+    public static void printAllFold(int N) {
+        printProcess(1, N, true);
+    }
+
+    // 递归过程，来到了某一个节点，
+    // i是节点的层数，N一共的层数，down == true  凹    down == false 凸
+    private static void printProcess(int i, int N, boolean down) {
+        if (i > N) {
+            return;
+        }
+        printProcess(i + 1, N, true);
+        System.out.println(down ? "凹" : "凸");
+        printProcess(i + 1, N, false);
+    }
+
+    public static void main(String[] args) {
+        int N = 5;
+        printAllFold(N);
+    }
+}
