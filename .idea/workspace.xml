@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info">
-      <change afterPath="$PROJECT_DIR$/class08/class08.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/class08/src/Code01_IsBalanced.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +67,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code08_PaperFolding">
+  <component name="RunManager" selected="Application.Code01_IsBalanced">
+    <configuration name="Code01_IsBalanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code01_IsBalanced" />
+      <module name="class08" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Code05_PrintBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code05_PrintBinaryTree" />
       <module name="class07" />
@@ -105,20 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="class06_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class06_test" />
-      <module name="class07" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code01_IsBalanced" />
         <item itemvalue="Application.Code08_PaperFolding" />
         <item itemvalue="Application.Code07_SuccessorNode" />
         <item itemvalue="Application.Code06_TreeMaxWidth" />
         <item itemvalue="Application.Code05_PrintBinaryTree" />
-        <item itemvalue="Application.class06_test" />
       </list>
     </recent_temporary>
   </component>
@@ -135,21 +133,7 @@
       <workItem from="1659843525295" duration="11392000" />
       <workItem from="1659872704069" duration="520000" />
       <workItem from="1659960406479" duration="8471000" />
-      <workItem from="1660045595284" duration="8399000" />
-    </task>
-    <task id="LOCAL-00030" summary="info 获取添加到栈中的最小值，">
-      <created>1659839279340</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839279340</updated>
-    </task>
-    <task id="LOCAL-00031" summary="info 用两个栈来实现队列操作">
-      <created>1659839288328</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839288328</updated>
+      <workItem from="1660045595284" duration="9540000" />
     </task>
     <task id="LOCAL-00032" summary="info 用两个队列来实现栈结构">
       <created>1659839296558</created>
@@ -480,7 +464,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660054894801</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="info 工具类">
+      <created>1660056495965</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1660056495965</updated>
+    </task>
+    <task id="LOCAL-00080" summary="info">
+      <created>1660056506791</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1660056506791</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,10 +535,10 @@
     <MESSAGE value="info 层次遍历二叉树" />
     <MESSAGE value="info 二叉树的序列化和反序列化" />
     <MESSAGE value="info 打印二叉树" />
-    <MESSAGE value="info 工具类" />
     <MESSAGE value="info 查找二叉树最大宽度" />
     <MESSAGE value="info 找后继节点" />
     <MESSAGE value="info 纸对折，折痕凹凸" />
+    <MESSAGE value="info 工具类" />
     <MESSAGE value="info" />
     <option name="LAST_COMMIT_MESSAGE" value="info" />
   </component>
