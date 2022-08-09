@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 找后继节点">
-      <change afterPath="$PROJECT_DIR$/class07/src/Code08_PaperFolding.java" afterDir="false" />
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info">
+      <change afterPath="$PROJECT_DIR$/class08/class08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class08/src/Code01_IsBalanced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,21 +135,7 @@
       <workItem from="1659843525295" duration="11392000" />
       <workItem from="1659872704069" duration="520000" />
       <workItem from="1659960406479" duration="8471000" />
-      <workItem from="1660045595284" duration="7375000" />
-    </task>
-    <task id="LOCAL-00028" summary="info 环状队列操作，">
-      <created>1659839261627</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839261627</updated>
-    </task>
-    <task id="LOCAL-00029" summary="info 获取添加到栈中的最小值，">
-      <created>1659839270345</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839270345</updated>
+      <workItem from="1660045595284" duration="8399000" />
     </task>
     <task id="LOCAL-00030" summary="info 获取添加到栈中的最小值，">
       <created>1659839279340</created>
@@ -478,7 +466,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660054250675</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="info 纸对折，折痕凹凸">
+      <created>1660054885470</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1660054885470</updated>
+    </task>
+    <task id="LOCAL-00078" summary="info">
+      <created>1660054894801</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1660054894801</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info HashMapAndSortedMap" />
     <MESSAGE value="info 将默认的小根堆改写成大根堆" />
     <MESSAGE value="info 单链表中点问题" />
     <MESSAGE value="info 判断链表是不是回文结构" />
@@ -538,9 +539,10 @@
     <MESSAGE value="info 打印二叉树" />
     <MESSAGE value="info 工具类" />
     <MESSAGE value="info 查找二叉树最大宽度" />
-    <MESSAGE value="info" />
     <MESSAGE value="info 找后继节点" />
-    <option name="LAST_COMMIT_MESSAGE" value="info 找后继节点" />
+    <MESSAGE value="info 纸对折，折痕凹凸" />
+    <MESSAGE value="info" />
+    <option name="LAST_COMMIT_MESSAGE" value="info" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
