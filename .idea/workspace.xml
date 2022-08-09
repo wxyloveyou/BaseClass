@@ -73,6 +73,7 @@
       <module name="class08" />
       <method v="2">
         <option name="Make" enabled="true" />
+
       </method>
     </configuration>
     <configuration name="Code05_PrintBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
