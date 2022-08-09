@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info">
-      <change afterPath="$PROJECT_DIR$/class07/src/Code07_SuccessorNode.java" afterDir="false" />
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 找后继节点">
+      <change afterPath="$PROJECT_DIR$/class07/src/Code08_PaperFolding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,14 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code07_SuccessorNode">
-    <configuration name="Code04_SerializeAndReconstructTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code04_SerializeAndReconstructTree" />
-      <module name="class07" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Code08_PaperFolding">
     <configuration name="Code05_PrintBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code05_PrintBinaryTree" />
       <module name="class07" />
@@ -103,6 +96,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code08_PaperFolding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code08_PaperFolding" />
+      <module name="class07" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="class06_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="class06_test" />
       <module name="class07" />
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code08_PaperFolding" />
         <item itemvalue="Application.Code07_SuccessorNode" />
         <item itemvalue="Application.Code06_TreeMaxWidth" />
         <item itemvalue="Application.Code05_PrintBinaryTree" />
         <item itemvalue="Application.class06_test" />
-        <item itemvalue="Application.Code04_SerializeAndReconstructTree" />
       </list>
     </recent_temporary>
   </component>
@@ -133,14 +133,7 @@
       <workItem from="1659843525295" duration="11392000" />
       <workItem from="1659872704069" duration="520000" />
       <workItem from="1659960406479" duration="8471000" />
-      <workItem from="1660045595284" duration="6701000" />
-    </task>
-    <task id="LOCAL-00027" summary="info  基数排序">
-      <created>1659839249672</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839249672</updated>
+      <workItem from="1660045595284" duration="7375000" />
     </task>
     <task id="LOCAL-00028" summary="info 环状队列操作，">
       <created>1659839261627</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660051855394</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="info 找后继节点">
+      <created>1660054250675</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1660054250675</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info 求arr上的最大值" />
     <MESSAGE value="info HashMapAndSortedMap" />
     <MESSAGE value="info 将默认的小根堆改写成大根堆" />
     <MESSAGE value="info 单链表中点问题" />
@@ -540,7 +539,8 @@
     <MESSAGE value="info 工具类" />
     <MESSAGE value="info 查找二叉树最大宽度" />
     <MESSAGE value="info" />
-    <option name="LAST_COMMIT_MESSAGE" value="info" />
+    <MESSAGE value="info 找后继节点" />
+    <option name="LAST_COMMIT_MESSAGE" value="info 找后继节点" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
