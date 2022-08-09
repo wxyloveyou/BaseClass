@@ -10,7 +10,6 @@ public class Code01_IsBalanced {
         public int value;
         public Node left;
         public Node right;
-
         public Node(int value) {
             this.value = value;
         }
@@ -71,10 +70,10 @@ public class Code01_IsBalanced {
         for (int i = 0; i < testTimes; i++) {
             Node head = Util_class08.generateRandomBST(maxLevel, maxValue);
             if (isBalance1(head) != isBalance1(head)) {
-                System.out.println("BUG BUG BUG");
+                System.out.println("BUG BUG BUG!");
             }
         }
-        System.out.println("Finish");
+        System.out.println("Finish!");
     }
 
 }
