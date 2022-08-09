@@ -4,13 +4,13 @@
  * @Info :
  */
 public class Util_class07 {
-    public static class Node{
+    public static class Node extends Code06_TreeMaxWidth.Node {
         public int value;
         public Node left;
         public Node right;
 
         public Node(int value) {
-            this.value = value;
+            super(value);
         }
     }
     public static Node generateRandomBST(int maxLevel, int maxValue) {
