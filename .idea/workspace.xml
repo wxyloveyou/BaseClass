@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 工具类">
-      <change afterPath="$PROJECT_DIR$/class07/src/Code06_TreeMaxWidth.java" afterDir="false" />
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info">
+      <change afterPath="$PROJECT_DIR$/class07/src/Code07_SuccessorNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,14 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code06_TreeMaxWidth">
-    <configuration name="Code03_LevelTraversalBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code03_LevelTraversalBT" />
-      <module name="class07" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Code07_SuccessorNode">
     <configuration name="Code04_SerializeAndReconstructTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code04_SerializeAndReconstructTree" />
       <module name="class07" />
@@ -103,6 +96,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code07_SuccessorNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code07_SuccessorNode" />
+      <module name="class07" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="class06_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="class06_test" />
       <module name="class07" />
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code07_SuccessorNode" />
         <item itemvalue="Application.Code06_TreeMaxWidth" />
         <item itemvalue="Application.Code05_PrintBinaryTree" />
         <item itemvalue="Application.class06_test" />
         <item itemvalue="Application.Code04_SerializeAndReconstructTree" />
-        <item itemvalue="Application.Code03_LevelTraversalBT" />
       </list>
     </recent_temporary>
   </component>
@@ -133,28 +133,7 @@
       <workItem from="1659843525295" duration="11392000" />
       <workItem from="1659872704069" duration="520000" />
       <workItem from="1659960406479" duration="8471000" />
-      <workItem from="1660045595284" duration="4257000" />
-    </task>
-    <task id="LOCAL-00024" summary="info 快排 和 荷兰国旗问题">
-      <created>1659839210258</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839210258</updated>
-    </task>
-    <task id="LOCAL-00025" summary="info  链表做partition">
-      <created>1659839222004</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839222004</updated>
-    </task>
-    <task id="LOCAL-00026" summary="info  堆排序">
-      <created>1659839237627</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839237627</updated>
+      <workItem from="1660045595284" duration="6701000" />
     </task>
     <task id="LOCAL-00027" summary="info  基数排序">
       <created>1659839249672</created>
@@ -478,7 +457,28 @@
       <option name="project" value="LOCAL" />
       <updated>1660051498681</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="info 工具类">
+      <created>1660051705919</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1660051705920</updated>
+    </task>
+    <task id="LOCAL-00074" summary="info 查找二叉树最大宽度">
+      <created>1660051846097</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1660051846097</updated>
+    </task>
+    <task id="LOCAL-00075" summary="info">
+      <created>1660051855394</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1660051855394</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info 用两个队列来实现栈结构" />
     <MESSAGE value="info 求arr上的最大值" />
     <MESSAGE value="info HashMapAndSortedMap" />
     <MESSAGE value="info 将默认的小根堆改写成大根堆" />
@@ -537,10 +536,11 @@
     <MESSAGE value="info 非递归方式遍历二叉树" />
     <MESSAGE value="info 层次遍历二叉树" />
     <MESSAGE value="info 二叉树的序列化和反序列化" />
-    <MESSAGE value="info" />
     <MESSAGE value="info 打印二叉树" />
     <MESSAGE value="info 工具类" />
-    <option name="LAST_COMMIT_MESSAGE" value="info 工具类" />
+    <MESSAGE value="info 查找二叉树最大宽度" />
+    <MESSAGE value="info" />
+    <option name="LAST_COMMIT_MESSAGE" value="info" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
