@@ -66,12 +66,36 @@ public class Code03_IsBST {
             max = Math.max(max, rightInfo.max);
         }
         boolean isBST = false;
-        if (
-                (leftInfo == null ? true : (leftInfo.isBST && leftInfo.max < head.value))
-                        &&
-                        (rightInfo == null ? true : (rightInfo.isBST && head.value < rightInfo.min))
-        ) {
+//        if (
+//                (leftInfo == null ? true : (leftInfo.isBST && leftInfo.max < head.value))
+//                        &&
+//                        (rightInfo == null ? true : (rightInfo.isBST && head.value < rightInfo.min))
+//        ) {
+//            isBST = true;
+//        }
+        if (leftInfo == null && rightInfo == null) {
             isBST = true;
+        }
+        if (leftInfo != null && rightInfo != null) {
+            if (leftInfo.isBST && rightInfo.isBST) {
+                if (rightInfo.min > head.value && head.value > leftInfo.max) {
+                    isBST = true;
+                }
+            }
+        }
+        if (leftInfo == null && rightInfo != null) {
+            if (rightInfo.isBST) {
+                if (rightInfo.min > head.value ) {
+                    isBST = true;
+                }
+            }
+        }
+        if (rightInfo == null && leftInfo != null) {
+            if (leftInfo.isBST ) {
+                if (head.value > leftInfo.max) {
+                    isBST = true;
+                }
+            }
         }
         return new Info(isBST, min, max);
     }
