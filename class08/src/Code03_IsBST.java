@@ -73,6 +73,9 @@ public class Code03_IsBST {
 //        ) {
 //            isBST = true;
 //        }
+
+
+        //上面if条件可以下面改写，就是麻烦很多， 判断四次
         if (leftInfo == null && rightInfo == null) {
             isBST = true;
         }
