@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info">
-      <change afterPath="$PROJECT_DIR$/class08/src/Code02_IsFull.java" afterDir="false" />
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 递归套路判断是不是完全二叉树">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,16 +66,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code02_IsFull">
-    <configuration name="Code01_IsBalanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code01_IsBalanced" />
+  <component name="RunManager" selected="Application.Code06_IsCBT">
+    <configuration name="Code03_IsBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code03_IsBST" />
       <module name="class08" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code02_IsFull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code02_IsFull" />
+    <configuration name="Code04_MaxSubBSTSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code04_MaxSubBSTSize" />
+      <module name="class08" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code05_MaxSubBSTHead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code05_MaxSubBSTHead" />
       <module name="class08" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,34 +95,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code06_TreeMaxWidth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code06_TreeMaxWidth" />
-      <module name="class07" />
+    <configuration name="Code06_IsCBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code06_IsCBT" />
+      <module name="class08" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code07_SuccessorNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code07_SuccessorNode" />
-      <module name="class07" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code08_PaperFolding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code08_PaperFolding" />
-      <module name="class07" />
+    <configuration name="Code08_MaxDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code08_MaxDistance" />
+      <module name="class08" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Code02_IsFull" />
-        <item itemvalue="Application.Code01_IsBalanced" />
-        <item itemvalue="Application.Code08_PaperFolding" />
-        <item itemvalue="Application.Code07_SuccessorNode" />
-        <item itemvalue="Application.Code06_TreeMaxWidth" />
+        <item itemvalue="Application.Code06_IsCBT" />
+        <item itemvalue="Application.Code08_MaxDistance" />
+        <item itemvalue="Application.Code05_MaxSubBSTHead" />
+        <item itemvalue="Application.Code04_MaxSubBSTSize" />
+        <item itemvalue="Application.Code03_IsBST" />
       </list>
     </recent_temporary>
   </component>
@@ -135,77 +134,8 @@
       <workItem from="1659960406479" duration="8471000" />
       <workItem from="1660045595284" duration="10045000" />
       <workItem from="1660132678406" duration="872000" />
-      <workItem from="1660140745201" duration="1182000" />
-    </task>
-    <task id="LOCAL-00037" summary="info">
-      <created>1659839359255</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839359255</updated>
-    </task>
-    <task id="LOCAL-00038" summary="info">
-      <created>1659839365420</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839365420</updated>
-    </task>
-    <task id="LOCAL-00039" summary="info">
-      <created>1659839743437</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839743437</updated>
-    </task>
-    <task id="LOCAL-00040" summary="info 单链表中点问题">
-      <created>1659839772981</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839772981</updated>
-    </task>
-    <task id="LOCAL-00041" summary="info 判断链表是不是回文结构">
-      <created>1659839784089</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839784089</updated>
-    </task>
-    <task id="LOCAL-00042" summary="info 链表做partition">
-      <created>1659839798702</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1659839798702</updated>
-    </task>
-    <task id="LOCAL-00043" summary="info 完整的复制一个链表，">
-      <created>1659840086620</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1659840086620</updated>
-    </task>
-    <task id="LOCAL-00044" summary="info">
-      <created>1659840092808</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1659840092808</updated>
-    </task>
-    <task id="LOCAL-00045" summary="info 工具类">
-      <created>1659844084622</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1659844084622</updated>
-    </task>
-    <task id="LOCAL-00046" summary="info 桶排序_计数排序">
-      <created>1659844096184</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1659844096184</updated>
+      <workItem from="1660140745201" duration="3294000" />
+      <workItem from="1660215987365" duration="11275000" />
     </task>
     <task id="LOCAL-00047" summary="info小和问题，">
       <created>1659844104941</created>
@@ -480,7 +410,77 @@
       <option name="project" value="LOCAL" />
       <updated>1660132688470</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="info">
+      <created>1660141963375</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1660141963376</updated>
+    </task>
+    <task id="LOCAL-00087" summary="info 递归套路解决是不是满二叉树">
+      <created>1660141975434</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1660141975434</updated>
+    </task>
+    <task id="LOCAL-00088" summary="info  递归套路解决是不是二叉搜索数">
+      <created>1660143540234</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1660143540234</updated>
+    </task>
+    <task id="LOCAL-00089" summary="info  递归套路解决是不是二叉搜索数">
+      <created>1660144015112</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1660144015112</updated>
+    </task>
+    <task id="LOCAL-00090" summary="info  递归套路解决是不是二叉搜索数">
+      <created>1660144057474</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1660144057474</updated>
+    </task>
+    <task id="LOCAL-00091" summary="info  &#10;递归套路解决搜索二叉数的maxSize">
+      <created>1660219769252</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1660219769252</updated>
+    </task>
+    <task id="LOCAL-00092" summary="info  &#10;递归套路解决搜索二叉数的maxSize">
+      <created>1660220143697</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1660220143697</updated>
+    </task>
+    <task id="LOCAL-00093" summary="info 最大搜索二叉子树的头节点">
+      <created>1660223145749</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1660223145749</updated>
+    </task>
+    <task id="LOCAL-00094" summary="info 递归套路解决最大距离问题">
+      <created>1660225323414</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1660225323414</updated>
+    </task>
+    <task id="LOCAL-00095" summary="info 递归套路判断是不是完全二叉树">
+      <created>1660227574073</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1660227574073</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,9 +505,9 @@
             <State>
               <option name="COLUMN_ID_WIDTH">
                 <map>
-                  <entry key="Table.Default.Author.ColumnIdWidth" value="54" />
-                  <entry key="Table.Default.Date.ColumnIdWidth" value="118" />
-                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="46" />
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="71" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="84" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="84" />
                 </map>
               </option>
             </State>
@@ -517,12 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info 单链表中点问题" />
-    <MESSAGE value="info 判断链表是不是回文结构" />
-    <MESSAGE value="info 链表做partition" />
-    <MESSAGE value="info 完整的复制一个链表，" />
-    <MESSAGE value="info小和问题，" />
-    <MESSAGE value="info 桶排序_计数排序" />
     <MESSAGE value="info 归并排序," />
     <MESSAGE value="info小和问题," />
     <MESSAGE value="info 快排 和 荷兰国旗问题" />
@@ -542,7 +536,13 @@
     <MESSAGE value="info 工具类" />
     <MESSAGE value="info 是否是平衡二叉树" />
     <MESSAGE value="info" />
-    <option name="LAST_COMMIT_MESSAGE" value="info" />
+    <MESSAGE value="info 递归套路解决是不是满二叉树" />
+    <MESSAGE value="info  递归套路解决是不是二叉搜索数" />
+    <MESSAGE value="info  &#10;递归套路解决搜索二叉数的maxSize" />
+    <MESSAGE value="info 最大搜索二叉子树的头节点" />
+    <MESSAGE value="info 递归套路解决最大距离问题" />
+    <MESSAGE value="info 递归套路判断是不是完全二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="info 递归套路判断是不是完全二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
