@@ -1,7 +1,6 @@
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  * @author : WXY
  * @create : 2022-08-12 21:05
@@ -15,8 +14,6 @@ import java.util.List;
  *     public int happy;//这名员工可以带来的快乐值
  *     List<Employee> subordinates;//这个员工有哪些直接下级
  * }
- *
- *
  */
 public class Code09_MaxHappy {
     public static class Employee{
