@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info">
-      <change afterPath="$PROJECT_DIR$/class09/class09.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/class09/src/Code03_LessMoneySplitGold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class09/src/Code05_IPO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -69,9 +68,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code04_BestArrange">
+  <component name="RunManager" selected="Application.Code03_LessMoneySplitGold">
     <configuration name="Code01_LowestLexicography" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code01_LowestLexicography" />
+      <module name="class09" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code03_LessMoneySplitGold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code03_LessMoneySplitGold" />
       <module name="class09" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,13 +93,6 @@
     <configuration name="Code05_test (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code05_test" />
       <module name="BaseClass" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code06_IsCBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code06_IsCBT" />
-      <module name="class08" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code03_LessMoneySplitGold" />
         <item itemvalue="Application.Code04_BestArrange" />
         <item itemvalue="Application.Code01_LowestLexicography" />
         <item itemvalue="Application.Code07_lowestAncestor" />
         <item itemvalue="Application.Code09_MaxHappy" />
-        <item itemvalue="Application.Code06_IsCBT" />
       </list>
     </recent_temporary>
   </component>
@@ -142,21 +141,7 @@
       <workItem from="1660227674377" duration="1203000" />
       <workItem from="1660309459996" duration="3418000" />
       <workItem from="1660383146613" duration="4821000" />
-      <workItem from="1660398867635" duration="3229000" />
-    </task>
-    <task id="LOCAL-00057" summary="info">
-      <created>1659844759691</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1659844759691</updated>
-    </task>
-    <task id="LOCAL-00058" summary="info">
-      <created>1659844768695</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1659844768696</updated>
+      <workItem from="1660398867635" duration="4453000" />
     </task>
     <task id="LOCAL-00059" summary="info">
       <created>1659855167240</created>
@@ -487,7 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660400825122</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="info 获得的最大钱数">
+      <created>1660402236714</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1660402236714</updated>
+    </task>
+    <task id="LOCAL-00107" summary="info">
+      <created>1660402282559</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1660402282560</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +529,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info 基数排序" />
     <MESSAGE value="info 一个基本有序的数组，将其排序，要求每个数字移动的长度不超过k" />
     <MESSAGE value="info 完整的复制一个链表" />
     <MESSAGE value="info 两条链表相交问题" />
@@ -554,6 +552,7 @@
     <MESSAGE value="info 递归套路解决两个节点的最低公共父节点" />
     <MESSAGE value="info 一个字符串数组， 按照什么样子的顺序，连成一串，得到的字典序最小" />
     <MESSAGE value="info 贪心问题之最多的会议安排问题" />
+    <MESSAGE value="info 获得的最大钱数" />
     <MESSAGE value="info" />
     <option name="LAST_COMMIT_MESSAGE" value="info" />
   </component>
