@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 递归套路判断是不是完全二叉树">
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 一个字符串数组， 按照什么样子的顺序，连成一串，得到的字典序最小">
+      <change afterPath="$PROJECT_DIR$/class09/class09.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class09/src/Code03_LessMoneySplitGold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class09/src/Code04_BestArrange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class09/src/Code05_IPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,24 +71,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code06_IsCBT">
-    <configuration name="Code03_IsBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code03_IsBST" />
-      <module name="class08" />
+  <component name="RunManager" selected="Application.Code04_BestArrange">
+    <configuration name="Code01_LowestLexicography" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code01_LowestLexicography" />
+      <module name="class09" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code04_MaxSubBSTSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code04_MaxSubBSTSize" />
-      <module name="class08" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code05_MaxSubBSTHead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code05_MaxSubBSTHead" />
-      <module name="class08" />
+    <configuration name="Code04_BestArrange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code04_BestArrange" />
+      <module name="class09" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,8 +100,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code08_MaxDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code08_MaxDistance" />
+    <configuration name="Code07_lowestAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code07_lowestAncestor" />
+      <module name="class08" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code09_MaxHappy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code09_MaxHappy" />
       <module name="class08" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code04_BestArrange" />
+        <item itemvalue="Application.Code01_LowestLexicography" />
+        <item itemvalue="Application.Code07_lowestAncestor" />
+        <item itemvalue="Application.Code09_MaxHappy" />
         <item itemvalue="Application.Code06_IsCBT" />
-        <item itemvalue="Application.Code08_MaxDistance" />
-        <item itemvalue="Application.Code05_MaxSubBSTHead" />
-        <item itemvalue="Application.Code04_MaxSubBSTSize" />
-        <item itemvalue="Application.Code03_IsBST" />
       </list>
     </recent_temporary>
   </component>
@@ -136,48 +141,10 @@
       <workItem from="1660132678406" duration="872000" />
       <workItem from="1660140745201" duration="3294000" />
       <workItem from="1660215987365" duration="11275000" />
-    </task>
-    <task id="LOCAL-00047" summary="info小和问题，">
-      <created>1659844104941</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1659844104941</updated>
-    </task>
-    <task id="LOCAL-00048" summary="info 桶排序_计数排序">
-      <created>1659844134591</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1659844134591</updated>
-    </task>
-    <task id="LOCAL-00049" summary="info 归并排序,">
-      <created>1659844322305</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1659844322305</updated>
-    </task>
-    <task id="LOCAL-00050" summary="info小和问题,">
-      <created>1659844340178</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1659844340178</updated>
-    </task>
-    <task id="LOCAL-00051" summary="info 快排 和 荷兰国旗问题">
-      <created>1659844363011</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1659844363012</updated>
-    </task>
-    <task id="LOCAL-00052" summary="info 堆排序">
-      <created>1659844375868</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1659844375868</updated>
+      <workItem from="1660227674377" duration="1203000" />
+      <workItem from="1660309459996" duration="3418000" />
+      <workItem from="1660383146613" duration="4821000" />
+      <workItem from="1660398867635" duration="1570000" />
     </task>
     <task id="LOCAL-00053" summary="info 基数排序">
       <created>1659844399043</created>
@@ -480,7 +447,49 @@
       <option name="project" value="LOCAL" />
       <updated>1660227574073</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="info">
+      <created>1660227680841</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1660227680842</updated>
+    </task>
+    <task id="LOCAL-00097" summary="info">
+      <created>1660227693519</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1660227693519</updated>
+    </task>
+    <task id="LOCAL-00098" summary="info 派对的最大快乐值">
+      <created>1660311102691</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1660311102691</updated>
+    </task>
+    <task id="LOCAL-00099" summary="info 派对的最大快乐值">
+      <created>1660311138295</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1660311138295</updated>
+    </task>
+    <task id="LOCAL-00100" summary="info 递归套路解决两个节点的最低公共父节点">
+      <created>1660312795253</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1660312795253</updated>
+    </task>
+    <task id="LOCAL-00101" summary="info 一个字符串数组， 按照什么样子的顺序，连成一串，得到的字典序最小">
+      <created>1660385576339</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1660385576340</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,9 +526,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info 归并排序," />
-    <MESSAGE value="info小和问题," />
-    <MESSAGE value="info 快排 和 荷兰国旗问题" />
     <MESSAGE value="info 堆排序" />
     <MESSAGE value="info 基数排序" />
     <MESSAGE value="info 一个基本有序的数组，将其排序，要求每个数字移动的长度不超过k" />
@@ -535,14 +541,17 @@
     <MESSAGE value="info 纸对折，折痕凹凸" />
     <MESSAGE value="info 工具类" />
     <MESSAGE value="info 是否是平衡二叉树" />
-    <MESSAGE value="info" />
     <MESSAGE value="info 递归套路解决是不是满二叉树" />
     <MESSAGE value="info  递归套路解决是不是二叉搜索数" />
     <MESSAGE value="info  &#10;递归套路解决搜索二叉数的maxSize" />
     <MESSAGE value="info 最大搜索二叉子树的头节点" />
     <MESSAGE value="info 递归套路解决最大距离问题" />
     <MESSAGE value="info 递归套路判断是不是完全二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="info 递归套路判断是不是完全二叉树" />
+    <MESSAGE value="info" />
+    <MESSAGE value="info 派对的最大快乐值" />
+    <MESSAGE value="info 递归套路解决两个节点的最低公共父节点" />
+    <MESSAGE value="info 一个字符串数组， 按照什么样子的顺序，连成一串，得到的字典序最小" />
+    <option name="LAST_COMMIT_MESSAGE" value="info 一个字符串数组， 按照什么样子的顺序，连成一串，得到的字典序最小" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
