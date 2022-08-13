@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 一个字符串数组， 按照什么样子的顺序，连成一串，得到的字典序最小">
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info">
       <change afterPath="$PROJECT_DIR$/class09/class09.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/class09/src/Code03_LessMoneySplitGold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class09/src/Code04_BestArrange.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/class09/src/Code05_IPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,21 +141,7 @@
       <workItem from="1660227674377" duration="1203000" />
       <workItem from="1660309459996" duration="3418000" />
       <workItem from="1660383146613" duration="4821000" />
-      <workItem from="1660398867635" duration="1570000" />
-    </task>
-    <task id="LOCAL-00053" summary="info 基数排序">
-      <created>1659844399043</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1659844399043</updated>
-    </task>
-    <task id="LOCAL-00054" summary="info 一个基本有序的数组，将其排序，要求每个数字移动的长度不超过k">
-      <created>1659844410721</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1659844410721</updated>
+      <workItem from="1660398867635" duration="1888000" />
     </task>
     <task id="LOCAL-00055" summary="info 工具类">
       <created>1659844423400</created>
@@ -489,7 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660385576340</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="info 贪心问题之最多的会议安排问题">
+      <created>1660400531197</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1660400531197</updated>
+    </task>
+    <task id="LOCAL-00103" summary="info">
+      <created>1660400695255</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1660400695255</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,11 +509,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                  <option name="MATCH_CASE" value="true" />
+                </TextFilterSettings>
+              </option>
               <option name="COLUMN_ID_WIDTH">
                 <map>
                   <entry key="Table.Default.Author.ColumnIdWidth" value="71" />
-                  <entry key="Table.Default.Date.ColumnIdWidth" value="84" />
-                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="84" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="153" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="15" />
                 </map>
               </option>
             </State>
@@ -526,7 +529,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info 堆排序" />
     <MESSAGE value="info 基数排序" />
     <MESSAGE value="info 一个基本有序的数组，将其排序，要求每个数字移动的长度不超过k" />
     <MESSAGE value="info 完整的复制一个链表" />
@@ -547,11 +549,12 @@
     <MESSAGE value="info 最大搜索二叉子树的头节点" />
     <MESSAGE value="info 递归套路解决最大距离问题" />
     <MESSAGE value="info 递归套路判断是不是完全二叉树" />
-    <MESSAGE value="info" />
     <MESSAGE value="info 派对的最大快乐值" />
     <MESSAGE value="info 递归套路解决两个节点的最低公共父节点" />
     <MESSAGE value="info 一个字符串数组， 按照什么样子的顺序，连成一串，得到的字典序最小" />
-    <option name="LAST_COMMIT_MESSAGE" value="info 一个字符串数组， 按照什么样子的顺序，连成一串，得到的字典序最小" />
+    <MESSAGE value="info 贪心问题之最多的会议安排问题" />
+    <MESSAGE value="info" />
+    <option name="LAST_COMMIT_MESSAGE" value="info" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
