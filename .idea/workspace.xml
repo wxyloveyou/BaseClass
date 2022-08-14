@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 并查集">
-      <change afterPath="$PROJECT_DIR$/class10/src/Code07_MergeUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 管理用户">
+      <change afterPath="$PROJECT_DIR$/class10/src/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,14 +141,7 @@
       <workItem from="1660309459996" duration="3418000" />
       <workItem from="1660383146613" duration="4821000" />
       <workItem from="1660398867635" duration="4588000" />
-      <workItem from="1660465304658" duration="2960000" />
-    </task>
-    <task id="LOCAL-00063" summary="info">
-      <created>1659862071075</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1659862071075</updated>
+      <workItem from="1660465304658" duration="3335000" />
     </task>
     <task id="LOCAL-00064" summary="info 递归遍历二叉树">
       <created>1659862082776</created>
@@ -487,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660467077560</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="info 管理用户">
+      <created>1660468313426</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1660468313426</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +529,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info 两条链表相交问题" />
     <MESSAGE value="info 递归遍历二叉树" />
     <MESSAGE value="info 非递归方式遍历二叉树" />
     <MESSAGE value="info 层次遍历二叉树" />
@@ -555,7 +553,8 @@
     <MESSAGE value="info 贪心算法之哈夫曼树问题" />
     <MESSAGE value="info" />
     <MESSAGE value="info 并查集" />
-    <option name="LAST_COMMIT_MESSAGE" value="info 并查集" />
+    <MESSAGE value="info 管理用户" />
+    <option name="LAST_COMMIT_MESSAGE" value="info 管理用户" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
