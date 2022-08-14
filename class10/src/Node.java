@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * @create : 2022-08-14 17:15
  * @Info : 点结构
  */
-//点结构的描述
+//点结构的描述 A  0
 public class Node {
     public int value;
     public int in;
