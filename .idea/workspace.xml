@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 点结构">
-      <change afterPath="$PROJECT_DIR$/class10/src/Edge.java" afterDir="false" />
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 图结构">
+      <change afterPath="$PROJECT_DIR$/class10/src/createGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class10/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/class10/src/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,16 +22,17 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/class10/src/Node.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="sortBySeverity" value="false" />
   </component>
   <component name="ProjectId" id="2D0alCKBVqqTcjh0w3VIIHQX9kf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -143,35 +143,7 @@
       <workItem from="1660309459996" duration="3418000" />
       <workItem from="1660383146613" duration="4821000" />
       <workItem from="1660398867635" duration="4588000" />
-      <workItem from="1660465304658" duration="3464000" />
-    </task>
-    <task id="LOCAL-00065" summary="info 递归遍历二叉树">
-      <created>1659863974292</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1659863974292</updated>
-    </task>
-    <task id="LOCAL-00066" summary="info">
-      <created>1659864002678</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1659864002678</updated>
-    </task>
-    <task id="LOCAL-00067" summary="info 非递归方式遍历二叉树">
-      <created>1659865891690</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1659865891690</updated>
-    </task>
-    <task id="LOCAL-00068" summary="info 层次遍历二叉树">
-      <created>1659960802380</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1659960802380</updated>
+      <workItem from="1660465304658" duration="4672000" />
     </task>
     <task id="LOCAL-00069" summary="info 二叉树的序列化和反序列化">
       <created>1659965536850</created>
@@ -488,7 +460,35 @@
       <option name="project" value="LOCAL" />
       <updated>1660468668150</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="info 边结构">
+      <created>1660469016631</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1660469016631</updated>
+    </task>
+    <task id="LOCAL-00115" summary="info 边结构">
+      <created>1660469169300</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1660469169300</updated>
+    </task>
+    <task id="LOCAL-00116" summary="info 点结构">
+      <created>1660469220406</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1660469220406</updated>
+    </task>
+    <task id="LOCAL-00117" summary="info 图结构">
+      <created>1660469466287</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1660469466287</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,8 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info 非递归方式遍历二叉树" />
-    <MESSAGE value="info 层次遍历二叉树" />
     <MESSAGE value="info 二叉树的序列化和反序列化" />
     <MESSAGE value="info 打印二叉树" />
     <MESSAGE value="info 查找二叉树最大宽度" />
@@ -555,19 +553,10 @@
     <MESSAGE value="info" />
     <MESSAGE value="info 并查集" />
     <MESSAGE value="info 管理用户" />
+    <MESSAGE value="info 边结构" />
     <MESSAGE value="info 点结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="info 点结构" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/class06/src/Code05_FindFirstIntersectNode.java</url>
-          <line>178</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="info 图结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="info 图结构" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
