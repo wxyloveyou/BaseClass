@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info">
-      <change afterPath="$PROJECT_DIR$/class10/class10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class10/src/Code01_UnionFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_8_7_10_37_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_8_7_10_37__Changes_.xml" beforeDir="false" />
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info 并查集">
+      <change afterPath="$PROJECT_DIR$/class10/src/Code07_MergeUsers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,21 +142,7 @@
       <workItem from="1660309459996" duration="3418000" />
       <workItem from="1660383146613" duration="4821000" />
       <workItem from="1660398867635" duration="4588000" />
-      <workItem from="1660465304658" duration="1717000" />
-    </task>
-    <task id="LOCAL-00061" summary="info">
-      <created>1659859650438</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1659859650438</updated>
-    </task>
-    <task id="LOCAL-00062" summary="info 两条链表相交问题">
-      <created>1659861668141</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1659861668141</updated>
+      <workItem from="1660465304658" duration="2960000" />
     </task>
     <task id="LOCAL-00063" summary="info">
       <created>1659862071075</created>
@@ -491,7 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660403420411</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="info">
+      <created>1660467049478</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1660467049478</updated>
+    </task>
+    <task id="LOCAL-00111" summary="info 并查集">
+      <created>1660467077560</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1660467077560</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info 完整的复制一个链表" />
     <MESSAGE value="info 两条链表相交问题" />
     <MESSAGE value="info 递归遍历二叉树" />
     <MESSAGE value="info 非递归方式遍历二叉树" />
@@ -559,7 +554,8 @@
     <MESSAGE value="info 获得的最大钱数" />
     <MESSAGE value="info 贪心算法之哈夫曼树问题" />
     <MESSAGE value="info" />
-    <option name="LAST_COMMIT_MESSAGE" value="info" />
+    <MESSAGE value="info 并查集" />
+    <option name="LAST_COMMIT_MESSAGE" value="info 并查集" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
