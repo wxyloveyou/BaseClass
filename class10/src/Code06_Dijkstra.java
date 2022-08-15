@@ -52,7 +52,7 @@ public class Code06_Dijkstra {
     }
 
 
-    //改进版本
+    //改进版本  ，不用遍历去找最小的距离，用小根堆存储，直接拿最上面的值即可
     public static class NodeRecord{
         public Node node;
         public int distance;
