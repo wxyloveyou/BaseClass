@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info Dijkstra">
-      <change afterPath="$PROJECT_DIR$/class11/class11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class11/src/Code01_Hanoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info&#10;Code08_CardsInLine先后手问题">
+      <change afterPath="$PROJECT_DIR$/class11/src/Code09_NQueens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +49,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Code/JavaCode/Algorithm/BaseClass&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Code/JavaCode/practice&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -71,17 +69,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code01_Hanoi">
+  <component name="RunManager" selected="Application.Code09_NQueens">
     <configuration name="Code01_Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code01_Hanoi" />
       <module name="class11" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code01_LowestLexicography" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code01_LowestLexicography" />
-      <module name="class09" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,20 +98,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code07_lowestAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code07_lowestAncestor" />
-      <module name="class08" />
+    <configuration name="Code08_CardsInLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code08_CardsInLine" />
+      <module name="class11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code09_NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code09_NQueens" />
+      <module name="class11" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code09_NQueens" />
+        <item itemvalue="Application.Code08_CardsInLine" />
         <item itemvalue="Application.Code01_Hanoi" />
         <item itemvalue="Application.Code03_LessMoneySplitGold" />
         <item itemvalue="Application.Code04_BestArrange" />
-        <item itemvalue="Application.Code01_LowestLexicography" />
-        <item itemvalue="Application.Code07_lowestAncestor" />
       </list>
     </recent_temporary>
   </component>
@@ -148,20 +146,10 @@
       <workItem from="1660465304658" duration="12603000" />
       <workItem from="1660564257593" duration="4520000" />
       <workItem from="1660651783441" duration="3945000" />
-    </task>
-    <task id="LOCAL-00079" summary="info 工具类">
-      <created>1660056495965</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1660056495965</updated>
-    </task>
-    <task id="LOCAL-00080" summary="info">
-      <created>1660056506791</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1660056506791</updated>
+      <workItem from="1661093765526" duration="154000" />
+      <workItem from="1661093935794" duration="39000" />
+      <workItem from="1661168575391" duration="2000" />
+      <workItem from="1661168698842" duration="7752000" />
     </task>
     <task id="LOCAL-00081" summary="info 是否是平衡二叉树">
       <created>1660057064170</created>
@@ -492,7 +480,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660576238685</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="info Code08_CardsInLine">
+      <created>1661093834115</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1661093834115</updated>
+    </task>
+    <task id="LOCAL-00129" summary="info&#10;Code08_CardsInLine先后手问题">
+      <created>1661171818115</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1661171818115</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,8 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info 递归套路解决是不是满二叉树" />
-    <MESSAGE value="info  递归套路解决是不是二叉搜索数" />
     <MESSAGE value="info  &#10;递归套路解决搜索二叉数的maxSize" />
     <MESSAGE value="info 最大搜索二叉子树的头节点" />
     <MESSAGE value="info 递归套路解决最大距离问题" />
@@ -560,7 +560,9 @@
     <MESSAGE value="info Kruskal" />
     <MESSAGE value="info Prim" />
     <MESSAGE value="info Dijkstra" />
-    <option name="LAST_COMMIT_MESSAGE" value="info Dijkstra" />
+    <MESSAGE value="info Code08_CardsInLine" />
+    <MESSAGE value="info&#10;Code08_CardsInLine先后手问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="info&#10;Code08_CardsInLine先后手问题" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
