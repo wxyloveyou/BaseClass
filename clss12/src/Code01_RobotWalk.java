@@ -1,3 +1,5 @@
+import sun.util.resources.cldr.rof.CurrencyNames_rof;
+
 import java.util.ConcurrentModificationException;
 
 /**
@@ -7,6 +9,9 @@ import java.util.ConcurrentModificationException;
  * N M K P
  * 一共有N个位置，从M点出发，还剩下K步，到达P位置
  * N个位置 0...N  一共有N+1个位置。
+ *
+ * 注意：way4改way1这个暴力递归失败
+ *
  */
 public class Code01_RobotWalk {
 
@@ -84,53 +89,56 @@ public class Code01_RobotWalk {
     }
 
     //将暴力递归改动态规划
+    //因为自己改way1失败，复制的写好的代码way4改的动态规划
     public static int way3(int N, int M, int K, int P) {
         if (N < 2 || K < 1 || M < 1 || M > N || P < 1 || P > N) {
             return 0;
         }
-        int[][] dp = new int[N + 1][K + 1]; //初始化的时候都是0,
-        dp[P][0] = 1;
-//        if (rest == 0) {
-//            dp[cur][rest] = cur == P ? 1 : 0;    递归中这个0,不用单独设置
-//            return dp[cur][rest];
-//        }
-        for (int row = 0; row <= N; row++) {
-            for (int col = 1; col <= K; col++) {
-                if (row == 1) {
-                    dp[row][col] = dp[2][col - 1];
-                }
-                if (row == N) {
-                    dp[row][col] = dp[N - 1][col - 1];
-                }
-                if (row != 0 && row != N) {
-                    dp[row][col] = dp[row + 1][col - 1] + dp[row - 1][col - 1];
+        int[][] dp = new int[K + 1][N + 1]; //初始化的时候都是0,
+        dp[K][M] = 1;
+
+        for (int i = K-1 ; i >= 0; i--) {
+            for (int j = 1; j <= N; j++) {
+                if (j == 1 ) {
+                    dp[i][j] = dp[i + 1][j + 1];
+                } else if (j == N) {
+                    dp[i][j] = dp[i + 1][j - 1];
+                } else {
+                    dp[i][j] = dp[i + 1][j + 1] + dp[i + 1][j - 1];
                 }
             }
         }
+        return dp[0][P];
+    }
 
-//
-//        if (rest == 0) {
-//            return cur == P ? 1 : 0;
-//        }
-//        //如果还有rest步要走，而当前位置是1，那么只能从1走向2
+    //自己改way1这个暴力递归失败，，以下代码不可跑，
+    public static int way4(int N, int M, int K, int P) {
+        if (N < 2 || K < 1 || M < 1 || M > N || P < 1 || P > N) {
+            return 0;
+        }
+        int[][] dp = new int[K + 1][N + 1]; //初始化的时候都是0,
+        dp[0][P] = 1;
+        for (int i = K-1; i >= 1; i--) {
+            for (int j = 1; j <= N; j++) {
+                if (j == 1) {
+                    dp[i][j] = dp[i - 1][j + 1];
+                } else if (j == N) {
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else {
+                    dp[i][j] = dp[i - 1][j - 1] + dp[i - 1][j + 1];
+                }
+            }
+        }
 //        if (cur == 1) {
 //            return walk1(N, 2, rest - 1, P);
 //        }
-//        //如果还有rest步要走，而当前位置是N，那么只能从N-1走向N-2
+//
 //        if (cur == N) {
 //            return walk1(N, N - 1, rest - 1, P);
 //        }
-//        //如果还有rest步要走，而当前位置是cur在中间位置,那么当前可以走向左，或者走向右
-//        //走向左之后的后续过程是，来到cur-1位置，还剩下rest-1步走
-//        //走向右之后的后续过程是，来到cur-1位置，还剩下rest-1步走
-//        //走向左和走向右是截然不同的方法，所以总方法数都要算上
 //        return walk1(N, cur - 1, rest - 1, P) + walk1(N, cur + 1, rest - 1, P);
-        return dp[M][K];
-
-
+        return dp[K][M];
     }
-
-
 
 
 
@@ -138,6 +146,7 @@ public class Code01_RobotWalk {
         System.out.println(way1(7, 4, 9, 5));
         System.out.println(way2(7, 4, 9, 5));
         System.out.println(way3(7, 4, 9, 5));
+        System.out.println(way4(7, 4, 9, 5));
     }
 
 }
