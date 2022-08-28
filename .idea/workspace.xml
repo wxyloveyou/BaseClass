@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info">
-      <change afterPath="$PROJECT_DIR$/clss12/clss12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clss12/src/Code01_RobotWalk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info Code02_StickersToSpellWord">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +24,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://D:/Develop_software/JDk/JDK1.8/src.zip!/java/io/PrintStream.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/class10/src/Node.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/class11/src/Code08_CardsInLine.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/clss12/src/Code04_CardsInLine.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,24 +44,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/Code/JavaCode/practice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Code/JavaCode/practice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Code\JavaCode\Algorithm\BaseClass" />
@@ -71,24 +71,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code01_RobotWalk">
-    <configuration name="Code01_Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code01_Hanoi" />
-      <module name="class11" />
+  <component name="RunManager" selected="应用程序.Code02_StickersToSpellWord">
+    <configuration name="Code02_StickersToSpellWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code02_StickersToSpellWord" />
+      <module name="class12" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code01_RobotWalk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code01_RobotWalk" />
-      <module name="clss12" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code03_LessMoneySplitGold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code03_LessMoneySplitGold" />
-      <module name="class09" />
+    <configuration name="Code04_CardsInLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code04_CardsInLine" />
+      <module name="class12" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,27 +93,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code08_CardsInLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code08_CardsInLine" />
-      <module name="class11" />
+    <configuration name="Code09_CoinsWay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code09_CoinsWay" />
+      <module name="class12" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code09_NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code09_NQueens" />
-      <module name="class11" />
+    <configuration name="ConvertToLetterString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConvertToLetterString" />
+      <module name="class12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sdf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sdf" />
+      <module name="class12" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Code01_RobotWalk" />
-        <item itemvalue="Application.Code09_NQueens" />
-        <item itemvalue="Application.Code08_CardsInLine" />
-        <item itemvalue="Application.Code01_Hanoi" />
-        <item itemvalue="Application.Code03_LessMoneySplitGold" />
+        <item itemvalue="应用程序.Code02_StickersToSpellWord" />
+        <item itemvalue="应用程序.Code09_CoinsWay" />
+        <item itemvalue="应用程序.Code04_CardsInLine" />
+        <item itemvalue="应用程序.sdf" />
+        <item itemvalue="应用程序.ConvertToLetterString" />
       </list>
     </recent_temporary>
   </component>
@@ -152,77 +152,12 @@
       <workItem from="1661093935794" duration="39000" />
       <workItem from="1661168575391" duration="2000" />
       <workItem from="1661168698842" duration="7752000" />
-      <workItem from="1661261444298" duration="4905000" />
-    </task>
-    <task id="LOCAL-00083" summary="info 是否是平衡二叉树">
-      <created>1660057175973</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1660057175973</updated>
-    </task>
-    <task id="LOCAL-00084" summary="info">
-      <created>1660057186923</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1660057186923</updated>
-    </task>
-    <task id="LOCAL-00085" summary="info">
-      <created>1660132688470</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1660132688470</updated>
-    </task>
-    <task id="LOCAL-00086" summary="info">
-      <created>1660141963375</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1660141963376</updated>
-    </task>
-    <task id="LOCAL-00087" summary="info 递归套路解决是不是满二叉树">
-      <created>1660141975434</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1660141975434</updated>
-    </task>
-    <task id="LOCAL-00088" summary="info  递归套路解决是不是二叉搜索数">
-      <created>1660143540234</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1660143540234</updated>
-    </task>
-    <task id="LOCAL-00089" summary="info  递归套路解决是不是二叉搜索数">
-      <created>1660144015112</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1660144015112</updated>
-    </task>
-    <task id="LOCAL-00090" summary="info  递归套路解决是不是二叉搜索数">
-      <created>1660144057474</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1660144057474</updated>
-    </task>
-    <task id="LOCAL-00091" summary="info  &#10;递归套路解决搜索二叉数的maxSize">
-      <created>1660219769252</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1660219769252</updated>
-    </task>
-    <task id="LOCAL-00092" summary="info  &#10;递归套路解决搜索二叉数的maxSize">
-      <created>1660220143697</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1660220143697</updated>
+      <workItem from="1661261444298" duration="7549000" />
+      <workItem from="1661427228229" duration="6229000" />
+      <workItem from="1661433560571" duration="63000" />
+      <workItem from="1661433677718" duration="69000" />
+      <workItem from="1661433774140" duration="2314000" />
+      <workItem from="1661666124563" duration="8652000" />
     </task>
     <task id="LOCAL-00093" summary="info 最大搜索二叉子树的头节点">
       <created>1660223145749</created>
@@ -497,7 +432,77 @@
       <option name="project" value="LOCAL" />
       <updated>1661261627992</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="info">
+      <created>1661266439600</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1661266439600</updated>
+    </task>
+    <task id="LOCAL-00133" summary="info 机器人走路问题">
+      <created>1661266454729</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1661266454729</updated>
+    </task>
+    <task id="LOCAL-00134" summary="info 机器人走路问题">
+      <created>1661269041709</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1661269041709</updated>
+    </task>
+    <task id="LOCAL-00135" summary="info 背包问题_动态规划">
+      <created>1661430003803</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1661430003803</updated>
+    </task>
+    <task id="LOCAL-00136" summary="info 背包问题_动态规划">
+      <created>1661430041369</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1661430041369</updated>
+    </task>
+    <task id="LOCAL-00137" summary="info class11_code06动态规划版本">
+      <created>1661432605295</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1661432605295</updated>
+    </task>
+    <task id="LOCAL-00138" summary="info class11_Code08动态规划求解">
+      <created>1661435104866</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1661435104866</updated>
+    </task>
+    <task id="LOCAL-00139" summary="info 硬币问题">
+      <created>1661667968861</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1661667968862</updated>
+    </task>
+    <task id="LOCAL-00140" summary="info 硬币问题">
+      <created>1661668747195</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1661668747195</updated>
+    </task>
+    <task id="LOCAL-00141" summary="info Code02_StickersToSpellWord">
+      <created>1661676426013</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1661676426013</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,12 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info 最大搜索二叉子树的头节点" />
-    <MESSAGE value="info 递归套路解决最大距离问题" />
-    <MESSAGE value="info 递归套路判断是不是完全二叉树" />
-    <MESSAGE value="info 派对的最大快乐值" />
-    <MESSAGE value="info 递归套路解决两个节点的最低公共父节点" />
-    <MESSAGE value="info 一个字符串数组， 按照什么样子的顺序，连成一串，得到的字典序最小" />
     <MESSAGE value="info 贪心问题之最多的会议安排问题" />
     <MESSAGE value="info 获得的最大钱数" />
     <MESSAGE value="info 贪心算法之哈夫曼树问题" />
@@ -565,7 +564,29 @@
     <MESSAGE value="info&#10;Code08_CardsInLine先后手问题" />
     <MESSAGE value="info N皇后问题" />
     <MESSAGE value="info" />
-    <option name="LAST_COMMIT_MESSAGE" value="info" />
+    <MESSAGE value="info 机器人走路问题" />
+    <MESSAGE value="info 背包问题_动态规划" />
+    <MESSAGE value="info class11_code06动态规划版本" />
+    <MESSAGE value="info class11_Code08动态规划求解" />
+    <MESSAGE value="info 硬币问题" />
+    <MESSAGE value="info Code02_StickersToSpellWord" />
+    <option name="LAST_COMMIT_MESSAGE" value="info Code02_StickersToSpellWord" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clss12/src/Code02_StickersToSpellWord.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clss12/src/Code02_StickersToSpellWord.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
