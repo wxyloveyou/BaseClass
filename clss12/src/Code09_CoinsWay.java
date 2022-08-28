@@ -67,13 +67,32 @@ public class Code09_CoinsWay {
         return  way;
     }
 
-    public static int way3(int[] arr, int aim) {
+    public static int way3_1(int[] arr, int aim) {
         if (arr == null || arr.length == 0 || aim < 0) {
             return  0;
         }
         int N = arr.length;
         int[][] dp = new int[N + 1][aim + 1];
         dp[N][0] = 1;//dp[N][1......aim] = 0;
+        for (int index = N - 1; index >= 0; index--) {
+            for (int rest = 0; rest <= aim; rest++) {
+                int way = 0;
+                for (int zhang = 0; zhang * arr[index] <= rest; zhang++) {
+                    way += dp[index + 1][rest - (zhang * arr[index])];
+                }
+                dp[index][rest] = way;
+            }
+        }
+        return dp[0][aim];
+    }
+
+    public static int way3_2(int[] arr, int aim) {
+        if (arr == null || arr.length == 0 || aim < 0) {
+            return  0;
+        }
+        int N = arr.length;
+        int[][] dp = new int[N + 1][aim + 1];
+        dp[N][0] = 1;
         for (int index = N - 1; index >= 0; index--) {
             for (int rest = 0; rest <= aim; rest++) {
                 int way = 0;
@@ -95,11 +114,10 @@ public class Code09_CoinsWay {
         dp[N][0] = 1;
         for (int index = N - 1; index >= 0; index--) {
             for (int rest = 0; rest <= aim; rest++) {
-                int way = 0;
-                for (int zhang = 0; zhang * arr[index] <= rest; zhang++) {
-                    way += dp[index + 1][rest - (zhang * arr[index])];
+                dp[index][rest] = dp[index + 1][rest];
+                if (rest - arr[index] >= 0) {
+                    dp[index][rest] += dp[index][rest - arr[index]];
                 }
-                dp[index][rest] = way;
             }
         }
         return dp[0][aim];
@@ -110,7 +128,8 @@ public class Code09_CoinsWay {
         int sum = 1000;
         System.out.println(way1(arr,sum));
         System.out.println(way2(arr,sum));
-        System.out.println(way3(arr,sum));
+        System.out.println(way3_1(arr,sum)); //
+        System.out.println(way3_2(arr,sum));
         System.out.println(way4(arr,sum));
     }
 }
