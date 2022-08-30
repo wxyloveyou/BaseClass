@@ -1,0 +1,16 @@
+Index: clss12/src/Code05_PalindromeSubsequence.java
+===================================================================
+diff --git a/clss12/src/Code05_PalindromeSubsequence.java b/class12/src/Code05_LongestCommonSubsequence.java
+rename from clss12/src/Code05_PalindromeSubsequence.java
+rename to class12/src/Code05_LongestCommonSubsequence.java
+--- a/clss12/src/Code05_PalindromeSubsequence.java	
++++ b/class12/src/Code05_LongestCommonSubsequence.java	
+@@ -3,6 +3,7 @@
+  * @create : 2022-08-28 17:10
+  * @Info : 两个字符串的最长公共子序列
+  */
+-public class Code05_PalindromeSubsequence {
++public class Code05_LongestCommonSubsequence {
++
+ 
+ }
