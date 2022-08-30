@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info Code02_StickersToSpellWord">
+    <list default="true" id="03ea6dbd-0fdc-4175-abbc-25e4f3dc6687" name="Changes" comment="info class11_code06动态规划版本">
+      <change afterPath="$PROJECT_DIR$/class12/src/LongestCommonSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,13 +22,19 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://D:/Develop_software/JDk/JDK1.8/src.zip!/java/io/PrintStream.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/class10/src/Node.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/class11/src/Code08_CardsInLine.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/clss12/src/Code04_CardsInLine.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/class12/src/Code04_CardsInLine.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -71,7 +78,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Code02_StickersToSpellWord">
+  <component name="RunManager" selected="应用程序.LongestCommonSubsequence">
     <configuration name="Code02_StickersToSpellWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code02_StickersToSpellWord" />
       <module name="class12" />
@@ -100,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertToLetterString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConvertToLetterString" />
+    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestCommonSubsequence" />
       <module name="class12" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.LongestCommonSubsequence" />
         <item itemvalue="应用程序.Code02_StickersToSpellWord" />
         <item itemvalue="应用程序.Code09_CoinsWay" />
         <item itemvalue="应用程序.Code04_CardsInLine" />
         <item itemvalue="应用程序.sdf" />
-        <item itemvalue="应用程序.ConvertToLetterString" />
       </list>
     </recent_temporary>
   </component>
@@ -157,63 +164,8 @@
       <workItem from="1661433560571" duration="63000" />
       <workItem from="1661433677718" duration="69000" />
       <workItem from="1661433774140" duration="2314000" />
-      <workItem from="1661666124563" duration="8652000" />
-    </task>
-    <task id="LOCAL-00093" summary="info 最大搜索二叉子树的头节点">
-      <created>1660223145749</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1660223145749</updated>
-    </task>
-    <task id="LOCAL-00094" summary="info 递归套路解决最大距离问题">
-      <created>1660225323414</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1660225323414</updated>
-    </task>
-    <task id="LOCAL-00095" summary="info 递归套路判断是不是完全二叉树">
-      <created>1660227574073</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1660227574073</updated>
-    </task>
-    <task id="LOCAL-00096" summary="info">
-      <created>1660227680841</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1660227680842</updated>
-    </task>
-    <task id="LOCAL-00097" summary="info">
-      <created>1660227693519</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1660227693519</updated>
-    </task>
-    <task id="LOCAL-00098" summary="info 派对的最大快乐值">
-      <created>1660311102691</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1660311102691</updated>
-    </task>
-    <task id="LOCAL-00099" summary="info 派对的最大快乐值">
-      <created>1660311138295</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1660311138295</updated>
-    </task>
-    <task id="LOCAL-00100" summary="info 递归套路解决两个节点的最低公共父节点">
-      <created>1660312795253</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1660312795253</updated>
+      <workItem from="1661666124563" duration="10281000" />
+      <workItem from="1661867099541" duration="2430000" />
     </task>
     <task id="LOCAL-00101" summary="info 一个字符串数组， 按照什么样子的顺序，连成一串，得到的字典序最小">
       <created>1660385576339</created>
@@ -502,7 +454,63 @@
       <option name="project" value="LOCAL" />
       <updated>1661676426013</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="info 两个字符串的最长公共子序列">
+      <created>1661677860687</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1661677860687</updated>
+    </task>
+    <task id="LOCAL-00143" summary="info 机器人走路问题">
+      <created>1661678065945</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1661678065945</updated>
+    </task>
+    <task id="LOCAL-00144" summary="info">
+      <created>1661678074107</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1661678074107</updated>
+    </task>
+    <task id="LOCAL-00145" summary="info Code02_StickersToSpellWord">
+      <created>1661678096979</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1661678096979</updated>
+    </task>
+    <task id="LOCAL-00146" summary="info 硬币问题">
+      <created>1661678118812</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1661678118812</updated>
+    </task>
+    <task id="LOCAL-00147" summary="info 硬币问题">
+      <created>1661678134185</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1661678134185</updated>
+    </task>
+    <task id="LOCAL-00148" summary="info class11_Code08动态规划求解">
+      <created>1661678154257</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1661678154257</updated>
+    </task>
+    <task id="LOCAL-00149" summary="info class11_code06动态规划版本">
+      <created>1661678183356</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1661678183356</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info 贪心问题之最多的会议安排问题" />
     <MESSAGE value="info 获得的最大钱数" />
     <MESSAGE value="info 贪心算法之哈夫曼树问题" />
     <MESSAGE value="info 并查集" />
@@ -563,25 +570,26 @@
     <MESSAGE value="info Code08_CardsInLine" />
     <MESSAGE value="info&#10;Code08_CardsInLine先后手问题" />
     <MESSAGE value="info N皇后问题" />
-    <MESSAGE value="info" />
-    <MESSAGE value="info 机器人走路问题" />
     <MESSAGE value="info 背包问题_动态规划" />
-    <MESSAGE value="info class11_code06动态规划版本" />
-    <MESSAGE value="info class11_Code08动态规划求解" />
-    <MESSAGE value="info 硬币问题" />
+    <MESSAGE value="info 两个字符串的最长公共子序列" />
+    <MESSAGE value="info 机器人走路问题" />
+    <MESSAGE value="info" />
     <MESSAGE value="info Code02_StickersToSpellWord" />
-    <option name="LAST_COMMIT_MESSAGE" value="info Code02_StickersToSpellWord" />
+    <MESSAGE value="info 硬币问题" />
+    <MESSAGE value="info class11_Code08动态规划求解" />
+    <MESSAGE value="info class11_code06动态规划版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="info class11_code06动态规划版本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/clss12/src/Code02_StickersToSpellWord.java</url>
+          <url>file://$PROJECT_DIR$/class12/src/Code02_StickersToSpellWord.java</url>
           <line>52</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/clss12/src/Code02_StickersToSpellWord.java</url>
+          <url>file://$PROJECT_DIR$/class12/src/Code02_StickersToSpellWord.java</url>
           <line>57</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
